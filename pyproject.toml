@@ -1,0 +1,11 @@
+[project]
+name = "transformers-research"
+version = "0.1.0"
+description = "A package for conducting transformers research"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jaxtyping>=0.3.2",
+    "numpy>=2.3.3",
+    "torch>=2.8.0",
+]
