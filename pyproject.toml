@@ -1,7 +1,7 @@
 [project]
 name = "transformers-research"
-version = "0.1.0"
-description = "A package for conducting transformers research"
+version = "0.1.1"
+description = "A package for conducting transformers-related research."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -9,3 +9,10 @@ dependencies = [
     "numpy>=2.3.3",
     "torch>=2.8.0",
 ]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

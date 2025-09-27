@@ -1,1 +1,1 @@
-A package to easily conduct transformers-related research.
+A package for conducting transformers-related research.
